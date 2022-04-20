@@ -1,0 +1,6 @@
+salário = float(input('Qual o salário do funcionário?'))
+aumento = float(salário*0.15)
+final = float(salário+aumento)
+print(f'O salário de funcionário será R$ {final:.2f} após o aumento de 15%.')
+aum = float(salário*1.15)
+print(f'O salário de funcionário será R$ {aum:.2f} após o aumento de 15%.')
